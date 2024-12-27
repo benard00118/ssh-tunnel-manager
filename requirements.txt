@@ -1,0 +1,6 @@
+# Requirements for SSH Tunnel Manager
+configparser==5.3.0
+
+Notes on requirements.txt:
+configparser is included since it's used in the script for parsing the configuration file, although Python 3.7+ comes with this module by default, ensuring compatibility with older versions if needed.
+No other external libraries are used in the script, so no additional dependencies are listed here. If you add more features in the future, you might need to update this file accordingly.
